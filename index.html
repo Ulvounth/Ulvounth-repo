@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world</title>
+    <title>Rainydays</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/0ea37d4b08.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <img src="images/andy-kogl-LkF3du9aMDs-unsplash.png" alt="">
-    <p>I like this jacket</p>
+    <header>
+        <div class="navbar">
+            <a href="index.html"><img src="images/RainyDays_Logo.png" class="rainydays_logo" alt="logo"></a>
+            <nav>
+                <ul>
+                 <li><a href="index.html" class="active">Home</a></li>
+                 <li><a href="jackets.html">Jackets</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                  <li><a href="about.html">About</a></li>
+             </ul>
+            </nav>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+             <div class="welcome_content">
+                 <div>
+                    <h1>Bigger days. Smaller Splash.</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, enim explicabo! Assumenda praesentium perferendis quibusdam fuga in illo recusandae.</p>
+                </div>
+                <a href="jackets.html" class="cta">Shop now</a>
+             </div>
+        </section>
+        <div class="middle_text">
+            <h1>Popular now</h1>
+        </div>
+        <section class="popular">
+                <div class="popular_now">
+                    <img src="images/Yellow jacket.png" alt="Yellow jacket">
+                    <span>$29,90 Lorem ipsum</span>
+                </div>
+                <div class="popular_now">
+                    <img src="images/Orange jacket.png" alt="Orange jacket">
+                    <span>$35,00 Lorem ipsum</span>
+                </div>
+                <div class="popular_now">
+                    <img src="images/Blue jacket.png" alt="Blue jacket">
+                    <span>$25,00 Lorem ipsum</span>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section class="footer_menu">
+            <div class="footer_child">
+                <a href="contact.html" class="cta">Contact us</a>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, accusantium! Eum debitis iste eius molestias! Dolorem, fugiat accusamus rerum excepturi consectetur beatae placeat tempora saepe omnis tenetur ducimus ratione voluptatum.</p>
+            </div>
+            <div class="footer_child">
+                <h1>Payment methods</h1>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-paypal"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="footer_child">
+                <a href="about.html" class="cta">About us</a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime eos laborum delectus asperiores ut tempore ullam, quas cum doloribus temporibus impedit dolorum, nisi, vitae dicta? Magnam voluptates eaque magni officia?</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
