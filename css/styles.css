@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    background-color: #EEEEEE;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.rainydays_logo {
+    max-width: 262px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.search_bar {
+    padding: 5px;
+    border-radius: 40px;
+    background: #fff;
+}
+
+input {
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.navbar i {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+/* links */
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+ul li a {
+    color: black;
+    padding: 5px 30px;
+    font: 40px bold;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cta {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 80px;
+    border-radius: 38px;
+}
+
+/* Home page */
+
+.welcome {
+    background-image: url(../images/andy-kogl-LkF3du9aMDs-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    position: relative;
+    max-width: 1600px;
+    margin: 25px auto;
+}
+
+.welcome_content {
+    position: absolute;
+    text-align: left;
+    padding: 5%;
+    max-width: 500px;
+}
+
+.welcome_content h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.welcome_content p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.middle_text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px auto;
+    gap: 15px;
+    max-width: 1600px;
+}
+
+.popular_now img {
+    width: 100%;
+}
+
+.popular_now {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #C5D2E5;
+}
+
+.footer_menu {
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.footer_child {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer_child h1 {
+    font-size: 40px;
+}
+
+.footer_child i {
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .popular {
+        flex-direction: row;
+    }
+}
