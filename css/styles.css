@@ -219,6 +219,7 @@ ul li a:hover {
 }
 
 .middle_text {
+    font-size: 24px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -251,7 +252,6 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1600px;
     min-height: 30vh;
-    margin: auto;
     align-items: center;
 }
 
@@ -260,8 +260,8 @@ footer {
     text-align: center;
 }
 
-.footer_child h1 {
-    font-size: 40px;
+.footer_child h2 {
+    font-size: 35px;
 }
 
 .footer_child i {
@@ -496,12 +496,12 @@ footer p {
     }
 
     .welcome_content h1 {
-        font-size: 3.5rem;
+        font-size: 50px;
     }
     
     .welcome_content p {
         margin: 30px 0;
-        font-size: 1.1rem;
+        font-size: 25px;
     }
 
     .search_bar {
@@ -512,7 +512,7 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .footer_child h1 {
+    .footer_child h2 {
         font-size: 30px;
     }
     .contact {
@@ -556,19 +556,19 @@ footer p {
     }
 
      .welcome_content h1 {
-        font-size: 3.5rem;
+        font-size: 50px;
     }
     
     .welcome_content p {
         margin: 30px 0;
-        font-size: 1.5rem;
+        font-size: 25px;
     }
     
     .footer_child {
         padding: 10%;
     }
     
-    .footer_child h1 {
+    .footer_child h2 {
         font-size: 30px;
     }
 
