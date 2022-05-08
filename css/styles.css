@@ -237,6 +237,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1600px;
     min-height: 30vh;
+    margin: auto;
     align-items: center;
 }
 
