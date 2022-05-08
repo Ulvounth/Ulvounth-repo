@@ -44,81 +44,76 @@ nav ul li {
  
  /* Hamburger */
  .hamburger1 {
-   height: 45px;
-   margin: 10px;
-   display: -ms-grid;
-   display: grid;
-   grid-template-rows: repeat(3, 1fr);
-   z-index: 120;
+    height: 45px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    z-index: 120;
  }
  
  .hamburger1 div {
-   background-color: rgb(61, 61, 61);
-   position: relative;
-   width: 40px;
-   height: 5px;
-   margin-top: 7px;
-   -webkit-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    transition: all 0.2s ease-in-out;
  }
  
  #toggle1 {
-   display: none;
+    display: none;
  }
  
  #toggle1:checked + .hamburger1 .top {
-   -webkit-transform: rotate(-45deg);
-           transform: rotate(-45deg);
-   margin-top: 22.5px;
+    transform: rotate(-45deg);
+    margin-top: 22.5px;
  }
  
  #toggle1:checked + .hamburger1 .meat {
-   -webkit-transform: rotate(45deg);
-           transform: rotate(45deg);
-   margin-top: -5px;
+    transform: rotate(45deg);
+    margin-top: -5px;
  }
  
  #toggle1:checked + .hamburger1 .bottom {
-   -webkit-transform: scale(0);
-           transform: scale(0);
+    transform: scale(0);
  }
  
  #toggle1:checked ~ .menu1 {
-   height: 340px;
+    height: 340px;
  }
  
  
  /* Menu */
  .menu1 {
-   background-color: #fdfdfd;
-   display: -ms-grid;
-   display: grid;
-   grid-template-rows: 1fr repeat(4, 0.5fr);
-   grid-row-gap: 25px;
-   text-align: center;
-   height: 0px;
-   overflow: hidden;
-   transition: all 0.3s ease;
+    background-color: #fdfdfd;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
  }
  
  .menu1 a:first-child {
-   margin-top: 40px;
+    margin-top: 40px;
  }
  
  .menu1 a:last-child {
-   margin-bottom: 40px;
+    margin-bottom: 40px;
  }
  
  .link1 {
-   padding: 10px 0;
-   font: 700 20px 'Oswald', sans-serif;
+    padding: 10px 0;
+    font: 700 20px 'Oswald', sans-serif;
  }
  
  .link1:hover {
-   background-color: #EEEEEE;
-   color: rgb(61, 61, 61);
-   -webkit-transition: all 0.3s ease;
-   transition: all 0.3s ease;
+    background-color: #EEEEEE;
+    color: rgb(61, 61, 61);
+    transition: all 0.3s ease;
  }
 
 .search_bar {
@@ -132,12 +127,13 @@ nav ul li {
     border: none;
     border-radius: 50%;
     outline: none;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .nav_bar i {
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 25px;
+    color: #000;
 }
 
 /* links */
@@ -150,7 +146,7 @@ a {
 }
 
 ul li a {
-    color: black;
+    color: #000;
     padding: 5px 25px;
     font: 40px bold;
     transition: 0.6s ease;
@@ -170,14 +166,14 @@ ul li a:hover {
 
 .cta-small {
     padding: 8px 20px;
-    font-size: 0.8em;
+    font-size: 15px;
     grid-column: 2;
     grid-row: 2;
     text-align: center;
     margin-top: 5px;
   }
 
-/* Main */
+/* Homepage */
 
 .welcome {
     background-image: url(../images/andy-kogl-LkF3du9aMDs-unsplash.png);
@@ -197,13 +193,13 @@ ul li a:hover {
 }
 
 .welcome_content h1 {
-    font-size: 4rem;
+    font-size: 60px;
     color: #fff;
 }
 
 .welcome_content p {
     margin: 30px 0;
-    font-size: 1.8rem;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -226,8 +222,8 @@ ul li a:hover {
 }
 
 .popular_now {
-    cursor: pointer;
     text-align: center;
+    color: #000;
 }
 
 /* Footer */
@@ -256,6 +252,7 @@ footer {
 .footer_child i {
     padding: 15px;
     font-size: 30px;
+    color: #000;
 }
 
 footer p {
@@ -298,7 +295,7 @@ footer p {
 .about_us {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 1800px;
+    max-width: 1600px;
     margin: auto;
     padding: 10px;
 }
